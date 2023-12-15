@@ -1,6 +1,7 @@
 @import url("style/produits.css");
 @import url("style/clavier.css");
 @import url("style/fenetre.css");
+@import url("style/pal.css");
 
 * {
 	margin: 0;

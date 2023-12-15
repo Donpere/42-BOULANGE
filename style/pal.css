@@ -1,0 +1,36 @@
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	gap: 2vw;
+}
+
+label, .reponse {
+	font-size: 2.5vw
+}
+
+input {
+	width: 25vw;
+	height: 5vh;
+	padding: 1vw;
+
+	border-radius: 1vw;
+}
+
+button {
+	padding: 2vw;
+
+	font-size: 1.5vw;
+	color: var(--BTC);
+	background-color: var(--BC);
+
+	border-radius: 1vw;
+	box-shadow: .4vw .4vw 0 var(--BF);
+	border: none;
+}
+
+button:active {
+	box-shadow: .2vw .2vw 0 var(--BF);
+}
