@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-	margin: 10vw;
+	margin: 10vw 0 0 0;
 	font-size: 3vw;
 	text-justify: center;
 	text-align: center;
