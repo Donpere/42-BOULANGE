@@ -1,12 +1,19 @@
 .facture{
+    margin: 1vh;
     position: absolute;
-    top: 30vh;
+    top: 35vh;
     left: 55vw;
     width: 40vw;
-    height: 60vh;
-    background-color: black;
+    height: 45vh;
 }
 
-.facture .fenetre {
+.facture div {
+    height: 100%;
+    background-color: black;
+    border-radius: 2vw;
+    padding: 2vw;
 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    color: var(--BC);
 }
