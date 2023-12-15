@@ -1,0 +1,12 @@
+.facture{
+    position: absolute;
+    top: 30vh;
+    left: 55vw;
+    width: 40vw;
+    height: 60vh;
+    background-color: black;
+}
+
+.facture .fenetre {
+
+}
