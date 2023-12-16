@@ -15,21 +15,21 @@ const julie = new Vendeur(1, "Julie", "j.login", "vend1@salut", "sale");
 const noemie = new Vendeur(2, "Noémie", "n.login", "vend2@salut", "sale");
 const alex = new Vendeur(3, "Alex", "a.login", "vend3@salut", "sale");
 
-// Démarrez le compte à rebours après l'authentification réussie
-let timeoutId;
+// // Démarrez le compte à rebours après l'authentification réussie
+// let timeoutId;
 
-function startCountdown() {
-    timeoutId = setTimeout(() => {
-        // Rediriger l'utilisateur vers la page d'authentification après une période d'inactivité
-        window.location.href = "auth.html";
-    }, 120000); // 120000 millisecondes équivalent à 2 minutes
-}
+// function startCountdown() {
+//     timeoutId = setTimeout(() => {
+//         // Rediriger l'utilisateur vers la page d'authentification après une période d'inactivité
+//         window.location.href = "auth.html";
+//     }, 120000); // 120000 millisecondes équivalent à 2 minutes
+// }
 
-// Réinitialiser le compte à rebours lorsqu'il y a une interaction de l'utilisateur
-function resetCountdown() {
-    clearTimeout(timeoutId);
-    startCountdown();
-}
+// // Réinitialiser le compte à rebours lorsqu'il y a une interaction de l'utilisateur
+// function resetCountdown() {
+//     clearTimeout(timeoutId);
+//     startCountdown();
+// }
 
 // Fonction de vérification de l'authentification et redirection en fonction du rôle
 function verifyAndRedirect(vendeur) {
@@ -64,4 +64,4 @@ function handleLoginFormSubmission() {
 }
 
 // Appeler startCountdown au chargement de la page pour démarrer le compte à rebours
-startCountdown();
+// startCountdown();
