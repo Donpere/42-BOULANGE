@@ -1,0 +1,14 @@
+.hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-title {
+    margin: 10vw 0 5vw 0;
+}
+
+.auth-annonce {
+    margin: 5vw;
+}
+

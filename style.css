@@ -2,6 +2,7 @@
 @import url("style/clavier.css");
 @import url("style/fenetre.css");
 @import url("style/pal.css");
+@import url("style/auth.css");
 
 * {
 	margin: 0;

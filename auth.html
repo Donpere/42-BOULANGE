@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AUTHENTIFICATION</title>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div class="auth-container">
+		<div class="hello">
+			<h2 class="auth-title">Bonjour !</h2>
+			<h3 class="auth-annonce">Veuillez vous identifier s'il vous plait</h3>
+		</div>
+
+		<form id="loginForm">
+			<label for="username">Nom d'utilisateur:</label>
+			<input type="text" id="username" name="username" required>
+
+			<label for="password">Mot de passe:</label>
+			<input type="password" id="password" name="password" required>
+
+			<button type="button" onclick="performLogin()">Se connecter</button>
+		</form>
+
+		<div id="errorMessage" class="error-message"></div>
+	</div>
+
+	<script src="auth.js"></script> <!-- Assurez-vous d'ajuster le chemin vers votre script JavaScript -->
+
+
+</body>
+</html>
