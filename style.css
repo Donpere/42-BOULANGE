@@ -46,7 +46,7 @@ h1 {
 	align-items: center;
 }
 
-.boulangerie {
+.invent, .pal {
 	
 	font-size: 1.5vw;
 	text-align: center;
@@ -60,6 +60,22 @@ h1 {
 	margin: 3vw 10vw 3vw 10vw;
 	border-radius: 1vw;
 	background-color: var(--BC);
+}
+
+.logout {
+	
+	font-size: 1.5vw;
+	text-align: center;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	padding: 1vw;
+	margin: 3vw 10vw 3vw 10vw;
+	border-radius: 1vw;
+	background-color: var(--RE);
 }
 
 .invent {
