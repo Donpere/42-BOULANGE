@@ -32,7 +32,14 @@ For now, I'm looking for an internship, ideally in the Île-de-France region.
 <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> 
 	<img src="https://code.visualstudio.com/assets/branding/app-icon.png" alt="VS CODE" width="40" height="40"/> </a>	
 	
-	
+<a href="https://www.nginx.com/" target="_blank" rel="noreferrer"> 
+	<img src="https://raw.githubusercontent.com/rdimascio/icons/932c4cf6c9e2031abeca1c164baa0f76785c16fe/icons/color/nginx.svg" alt="NGINX" width="40" height="40"/> </a>
+
+<a href="https://fr.wikipedia.org/wiki/MariaDB" target="_blank" rel="noreferrer"> 
+	<img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Mariadb-seal-browntext.svg" alt="MariaDB" width="70" height="40"/> </a>
+
+<a href="https://fr.wikipedia.org/wiki/DBeaver" target="_blank" rel="noreferrer"> 
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DBeaver_logo.svg/langfr-800px-DBeaver_logo.svg.png" alt="DBeaver" width="70" height="40"/> </a>
 
 </p>
 
