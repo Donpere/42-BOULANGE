@@ -39,7 +39,12 @@ For now, I'm looking for an internship, ideally in the Île-de-France region.
 	<img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Mariadb-seal-browntext.svg" alt="MariaDB" width="70" height="40"/> </a>
 
 <a href="https://fr.wikipedia.org/wiki/DBeaver" target="_blank" rel="noreferrer"> 
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DBeaver_logo.svg/langfr-800px-DBeaver_logo.svg.png" alt="DBeaver" width="70" height="40"/> </a>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DBeaver_logo.svg/langfr-800px-DBeaver_logo.svg.png" alt="DBeaver" width="40" height="40"/> </a>
+
+<a href="https://www.prisma.io/" target="_blank" rel="noreferrer"> 
+	<img src="https://cdn.cookielaw.org/logos/028e799e-5bb4-4f89-9ce8-1718d42d344c/22c2e2c0-3df0-4958-8672-1194370ee230/542a9b3e-88eb-4f84-95fd-b19e01352169/Logo-Prisma.png" alt="Prisma" width="70" height="40"/> </a>
+
+
 
 </p>
 
