@@ -1,0 +1,48 @@
+"VENDEUR" :
+
+id_vendeur (clé primaire)
+nom
+login
+mot_de_passe
+
+
+"PRODUITS" :
+
+id_produit (clé primaire)
+nom_produit
+prix_hors_taxe
+stock
+
+
+"VENTES" :
+
+id_vente (clé primaire)
+id_vendeur (clé étrangère référençant la table VENDEUR)
+date_vente
+montant_total
+
+"LIGNE_VENTE" :
+
+id_ligne (clé primaire)
+id_vente (clé étrangère référençant la table VENTES)
+id_produit (clé étrangère référençant la table PRODUITS)
+quantite
+prix_unitaire
+
+
+"INVENTAIRE" :
+
+id_inventaire (clé primaire)
+id_produit (clé étrangère référençant la table PRODUITS)
+date_operation
+code_operation (vente, vente_annulee, entree_stock, jete, retire)
+mouvement_stock (fabrique, mis_en_vitrine, retire)
+quantite
+
+
+Ajustements : 
+les clés étrangères sont utilisées pour établir des relations entre les tables, garantissant ainsi l'intégrité référentielle. 
+
+Les tables VENTES et INVENTAIRE sont liées aux tables VENDEUR et PRODUITS respectivement, facilitant ainsi l'organisation des données. 
+
+On pourra également ajouter des contraintes d'intégrité référentielle pour renforcer la qualité des données.

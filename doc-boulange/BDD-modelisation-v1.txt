@@ -1,0 +1,24 @@
+VENDEUR
+- id
+- nom
+- login
+- mot de passe
+
+PRODUITS
+- id
+- nom produit
+- prix hors taxe
+- stock
+
+VENTES
+- id
+- vendeur
+- montant de la vente
+
+INVENTAIRE
+- id
+- code opération (vente, vente annulée, entrée en stock, jeté, retiré (par exemple renvoyé au fournisseur))
+- id de vente (chaque vente sera ventilée par produit, donc plusieurs lignes par vente)
+- mouvement de stock (produits fabriqués mis en vitrine, produits finis (canette de coca par exemple) mis en vitrine ou retirés)
+- Produit
+- Quantité
