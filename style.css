@@ -32,6 +32,13 @@ body {
 
 h1 {
 	margin: 10vw 0 0 0;
+	font-size: 4vw;
+	text-justify: center;
+	text-align: center;
+}
+
+h2 {
+	margin: 5vw 0 0 0;
 	font-size: 3vw;
 	text-justify: center;
 	text-align: center;

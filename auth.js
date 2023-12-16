@@ -10,7 +10,7 @@ class Vendeur {
 }
 
 // Création d'instances de Vendeur
-const bob = new Vendeur(0, "Bob", "b.login", "bossd@salut", "BOSS");
+const bob = new Vendeur(0, "Bob", "b.login", "boss@salut", "BOSS");
 const julie = new Vendeur(1, "Julie", "j.login", "vend1@salut", "sale");
 const noemie = new Vendeur(2, "Noémie", "n.login", "vend2@salut", "sale");
 const alex = new Vendeur(3, "Alex", "a.login", "vend3@salut", "sale");
