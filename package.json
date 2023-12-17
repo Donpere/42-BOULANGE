@@ -1,0 +1,24 @@
+{
+  "name": "42-boulange",
+  "version": "1.0.0",
+  "description": "A fun solo project, following an interview for an internship. The cash register of a baker testing palindromes.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donpere/42-BOULANGE.git"
+  },
+  "author": "DONpere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Donpere/42-BOULANGE/issues"
+  },
+  "homepage": "https://github.com/Donpere/42-BOULANGE#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "body-parser": "^1.19.0"
+  }
+}

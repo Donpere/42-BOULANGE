@@ -1,0 +1,71 @@
+Boulange-bdd V3
+
+
+
+
+"VENDEUR" :
+
+id_vendeur (clé primaire)
+nom
+login
+mot_de_passe
+
+"PRODUITS" :
+
+id_produit (clé primaire)
+nom_produit
+prix_hors_taxe DECIMAL(10, 2)
+stock INT
+
+"VENTES" :
+
+id_vente (clé primaire)
+id_vendeur (clé étrangère référençant la table VENDEUR)
+date_vente DATETIME
+montant_total DECIMAL(10, 2)
+
+"LIGNE_VENTE" :
+
+id_ligne (clé primaire)
+id_vente (clé étrangère référençant la table VENTES)
+id_produit (clé étrangère référençant la table PRODUITS)
+quantite INT
+prix_unitaire DECIMAL(10, 2)
+
+"INVENTAIRE" :
+
+id_inventaire (clé primaire)
+id_produit (clé étrangère référençant la table PRODUITS)
+date_operation DATETIME
+code_operation ENUM('vente', 'vente_annulee', 'entree_stock', 'jete', 'retire')
+mouvement_stock ENUM('fabrique', 'mis_en_vitrine', 'retire')
+quantite INT
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+"CAISSE" :
+
+id_caisse (clé primaire)
+solde_caisse DECIMAL(10, 2)
+
+"MOYEN_PAIEMENT" :
+
+id_moyen_paiement (clé primaire)
+nom_moyen_paiement VARCHAR(50) NOT NULL
+
+"TRANSACTIONS" :
+
+id_transaction (clé primaire)
+id_vente (clé étrangère référençant la table VENTES)
+date_transaction DATETIME
+montant_total DECIMAL(10, 2)
+id_caisse (clé étrangère référençant la table CAISSE)
+
+"DETAIL_PAIEMENT" :
+
+id_detail_paiement (clé primaire)
+id_transaction (clé étrangère référençant la table TRANSACTIONS)
+id_moyen_paiement (clé étrangère référençant la table MOYEN_PAIEMENT)
+montant_paiement DECIMAL(10, 2)
