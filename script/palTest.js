@@ -1,4 +1,5 @@
 let str = "Sos"
+
 if (str === "") {
     console.log('Need a string to test');
     return;
